@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Susan&#39;s blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://mryoung2022.github.io/</link>
     <description>Recent content on Susan&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright ©2025</copyright>
     <lastBuildDate>Sat, 29 Nov 2025 15:49:00 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mryoung2022.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://mryoung2022.github.io/about/</link>
       <pubDate>Sat, 29 Nov 2025 15:49:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://mryoung2022.github.io/about/</guid>
       <description>&lt;p&gt;Well，其实我也不知道从哪里开始。我的网名是 Susan_2333，起因是我姓杨，然后同学们都叫我苏西。挺正常的对吧&amp;hellip;直到有个人叫我苏珊。我也不知道为什么，但是感觉挺有意思的，就把它作为网名了。&lt;/p&gt;
 &lt;p&gt;平时喜欢研究数学和物理学，数学比较喜欢的分支是分析学&lt;/p&gt;
 &lt;blockquote&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>线程与进程</title>
-      <link>http://localhost:1313/posts/processandthread/</link>
+      <link>https://mryoung2022.github.io/posts/processandthread/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/processandthread/</guid>
+      <guid>https://mryoung2022.github.io/posts/processandthread/</guid>
       <description>&lt;p&gt;注：本片文章讨论的“线程”，是软件线程，而不是硬件线程&lt;/p&gt;
 &lt;h2 id=&#34;进程&#34;&gt;进程&lt;/h2&gt;
 &lt;h3 id=&#34;定义&#34;&gt;定义&lt;/h3&gt;

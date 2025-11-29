@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Susan&#39;s blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://mryoung2022.github.io/posts/</link>
     <description>Recent content in Posts on Susan&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright ©2025</copyright>
     <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mryoung2022.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>线程与进程</title>
-      <link>http://localhost:1313/posts/processandthread/</link>
+      <link>https://mryoung2022.github.io/posts/processandthread/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/processandthread/</guid>
+      <guid>https://mryoung2022.github.io/posts/processandthread/</guid>
       <description>&lt;p&gt;注：本片文章讨论的“线程”，是软件线程，而不是硬件线程&lt;/p&gt;
 &lt;h2 id=&#34;进程&#34;&gt;进程&lt;/h2&gt;
 &lt;h3 id=&#34;定义&#34;&gt;定义&lt;/h3&gt;
