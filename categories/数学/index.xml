@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Susan's Blog</title><link>https://mryoung2022.github.io/categories/%E6%95%B0%E5%AD%A6/</link><description>Recent content in 数学 on Susan's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>you@example.com (Susan)</managingEditor><webMaster>you@example.com (Susan)</webMaster><copyright>© 2025 Susan</copyright><lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mryoung2022.github.io/categories/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>一个说难不难说简单不简单的概率问题</title><link>https://mryoung2022.github.io/posts/prob1/</link><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate><author>you@example.com (Susan)</author><guid>https://mryoung2022.github.io/posts/prob1/</guid><description>&lt;p>前两天上生物课的时候老师讲伴性遗传，偶然提到了我国男女比例失调的情况，统计数据如下：全国人口中，男性人口为723339956人，占51.24%；女性人口为688438768人，占48.76%。总人口性别比（以女性为100，男性对女性的比例）为105.07，与2010年第六次全国人口普查基本持平。正常而言，生男生女的概率应该是相同的，为何男性比女性多呢？这也许与我国的传统观念有关吧，出于某种原因，以前人似乎更愿意生男孩，我把这个问题抽象成了一个抛硬币的问题，问题如下：&lt;br>
+假设有一个人抛硬币（A，B两面），抛出A面后就不再抛，否则继续&lt;br>
+问抛出硬币中&lt;strong>A面的占比&lt;/strong>的&lt;strong>期望&lt;/strong>是多少？&lt;br>
+我们可以采用通常的办法，一步步来&lt;br>
+第一次
+$$\text{抛出A的概率是} \frac{1}{2} $$
+,A的占比是1，因此对期望的贡献为
+$$\frac{1}{2} \times 1=\frac{1}{2} $$
+第二次
+$$\text{第一次抛出B的概率是} \frac{1}{2} $$
+$$\text{抛出A的概率是} \frac{1}{2} $$
+$$\text{A的占比是} \frac{1}{2} $$
+$$\text{因此对期望的贡献为} \left ( \frac{1}{2} \right )^2 \times \frac{1}{2} $$
+第三次
+$$\text{前两次都未抛出而第三次抛出的概率是} \left ( \frac{1}{2} \right )^3 $$
+$$\text{A的占比是} \frac{1}{3} $$
+$$\text{因此对期望的贡献为} \left ( \frac{1}{2} \right )^3 \times \frac{1}{3} $$
+停！&lt;br>
+让我们回过头来审视结果
+$$\text{前k-1次都未抛出而第k次抛出的概率是} \left ( \frac{1}{2} \right )^k $$
+$$\text{A的占比是} \frac{1}{k} $$
+$$\text{因此对期望的贡献为} \left ( \frac{1}{2} \right )^k \times \frac{1}{k} $$
+所以我们最后要算的期望是
+$$\sum_{k = 1}^{\infty}\frac{1}{k\cdot 2^k} $$
+这并非通常的几何级数，但我们发现如果给它再乘个k就变成几何级数了&lt;br>
+我们发现，如果考察幂级数
+$$ f(x)=\sum_{k = 1}^{\infty}\frac{x^{k}}{k\cdot 2^k} $$
+则
+$$ f^\prime(x)=\frac{1}{2}\sum_{k = 0}^{\infty}\frac{x^{k}}{2^k} $$
+这是几何级数，所以我们有
+$$f^\prime(x) = \frac{1}{2-x}$$
+$$f(x) = \int \frac{1}{2-x}\mathrm{d}x=-\ln|2-x|+C$$
+由$f(0)=0$我们有
+$$C=\ln2$$
+而我们要算的是
+$$f(1) = -\ln|2-1| + \ln2 = \bold{\ln2}$$
+所以，A面的占比的期望是
+&lt;strong>$$\boxed{\ln2\approx0.693147181}$$&lt;/strong>&lt;/p></description></item><item><title>数学</title><link>https://mryoung2022.github.io/posts/math/</link><pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate><author>you@example.com (Susan)</author><guid>https://mryoung2022.github.io/posts/math/</guid><description>&lt;p>这是数学的文章内容。&lt;/p></description></item></channel></rss>
