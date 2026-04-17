@@ -1,0 +1,12 @@
+.hugo_build.lock
+.DS_Store
+Thumbs.db
+node_modules/
+.bun/
+resources/_gen/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.swp
+public/
